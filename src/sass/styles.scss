@@ -1,3 +1,29 @@
-body {
-  background-color: #7FDBFF;
+.body {
+  background-color:#db8d8c;
+}
+
+.container{
+  margin-top: 10vw;
+  height: 400px;
+  color:white;
+  text-align: center;
+  background-color:#8f8cdb;
+    .button{
+    color: white;
+    background: #d8db8c;
+  }
+}
+
+.button:hover {
+  color: black;
+}
+
+.userInput {
+  width: 30vw;
+}
+
+#field {
+  color: white;
+  margin-top: 10vh;
+  list-style-type: none;
 }

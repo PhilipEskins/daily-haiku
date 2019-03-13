@@ -3,14 +3,20 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script type="text/javascript" src="bundle.js"></script>
-  <title>Ping Pong</title>
+  <title>Daily Haiku</title>
 </head>
-<body>
-  <form id="ping-pong-form">
-    <label for="goal">Enter a number:</label>
-    <input id="goal" type="number">
-    <button type="submit">Submit</button>
-  </form>
-  <ul id="solution"></ul>
+<body class="body">
+  <div class="container">
+    <form class="dateInput">
+      <h2>Month:</h2><br>
+      <input id="month" class="userInput"type="number" min="1" max="12"></input>
+      <h2>Day:</h2><br>
+      <input id="date" class="userInput"type="number" min="1" max="31"></input>
+      <h2>Year:</h2><br>
+      <input id="year" class="userInput"type="number" min="1900" max="3001"></input><br>
+      <br><button class="button" type="submit">Submit</button>
+    </form>
+    <ul id="field"></ul>
+  </div>
 </body>
 </html>
