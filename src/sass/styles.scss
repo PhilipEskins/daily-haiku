@@ -1,5 +1,7 @@
 .body {
   background-color:#db8d8c;
+  background-image: url(../assets/img/clock.gif);
+  background-size: cover;
 }
 
 .container{
@@ -8,14 +10,28 @@
   color:white;
   text-align: center;
   background-color:#8f8cdb;
-    .button{
+  background-image: url(../assets/img/clock.gif);
+  background-size: cover;
+  .button{
     color: white;
     background: #d8db8c;
   }
 }
 
 .button:hover {
-  color: black;
+  color: white;
+  transition-duration: 03s;
+  background-color: black;
+  box-shadow: 2px 2px;
+
+}
+
+.dateInput{
+  // margin-top: 200px;
+  h2{
+    margin-top: 60px;
+  }
+
 }
 
 .userInput {
@@ -23,7 +39,7 @@
 }
 
 #field {
-  color: white;
+  color: black;
   margin-top: 10vh;
   list-style-type: none;
 }
